@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Frame</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/cce6747441.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="../Styles/pricing.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-white fixed-top">
+        <div class="container-fluid navbar-header-text">
+            <a href="https://tobiascodecraft.github.io/Flex-Frame/"><img id="navbar-logo" src="../Images/Logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Main HTML/Platform.html">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Main HTML/Templates.html">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../Main HTML/Pricing.html">Pricing</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto me-5">
+                    <a href="Register.html" class="offer-btn">Start a Free Trial</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Text -->
+    <h1>Grow faster with Flex Frame</h1>
+    <h2>Try for free for 14 days. No credit card required.</h2>
+
+    <div class="center-container">
+        <div class="switch-btn">
+            <button onclick="AnnualPrice ()" class="buy-option-btn">Annual (save 25%)</button>
+            <button onclick="MonthlyPrice ()" class="buy-option-btn">Monthly</button>
+        </div>
+    </div>
+
+    <div class="option-container">
+        <div class="option-row">
+            <p class="option-header">Basic</p>
+            <p class="info-text">Buy per Site</p>
+            <p class="option-header basic-price-js">$19<span class="month-spa">/mo</span></p>
+            <p class="info-text">Billed annually</p>
+
+            <button class="option-btn">Get Started</button>
+            <br>
+
+            <p class="features-text">Includes 1 site & AWS hosting</p>
+            <p class="features-text">Add site for $19/mo</p>
+            <p class="features-text">Email support</p>
+            <p class="features-text">99.99% uptime SLA</p>
+            <p class="features-text">AI Content Assistant</p>
+        </div>
+
+        <div class="option-row">
+            <p class="option-header">Team</p>
+            <p class="info-text">Expanded Access</p>
+            <p class="option-header team-price-js">$29<span class="month-spa">/mo</span></p>
+            <p class="info-text">Billed annually</p>
+
+            <button class="option-btn-blue">Get Started</button>
+            <br>
+
+            <p class="features-text">Includes 1 site & AWS hosting</p>
+            <p class="features-text">Add site for $14.99/mo</p>
+            <p class="features-text">Email support</p>
+            <p class="features-text">99.99% uptime SLA</p>
+            <p class="features-text">3 team members</p>
+            <p class="features-text">Dynamic pages</p>
+            <p class="features-text">Client management</p>
+            <p class="features-text">AI Content Assistant</p>
+            <p class="features-text">AI SEO Assistant</p>
+        </div>
+
+        <div class="option-row">
+            <p class="option-header">Agency</p>
+            <p class="info-text">Save at Scale</p>
+            <p class="option-header agency-price-js">$52<span class="month-spa">/mo</span></p>
+            <p class="info-text">Billed annually</p>
+
+            <button class="option-btn-orange">Get Started</button>
+            <br>
+
+
+            <p class="features-text">Includes 4 site & AWS hosting</p>
+            <p class="features-text">Add site for $12.99/mo</p>
+            <p class="features-text">Email support</p>
+            <p class="features-text">99.99% uptime SLA</p>
+            <p class="features-text">6 team members</p>
+            <p class="features-text">Dynamic pages</p>
+            <p class="features-text">Client management</p>
+            <p class="features-text">Site export</p>
+            <p class="features-text">AI Content Assistant</p>
+            <p class="features-text">AI SEO Assistant</p>
+        </div>
+
+        <div class="option-row">
+            <p class="option-header">White Label</p>
+            <p class="info-text">Make It Your Own</p>
+            <p class="option-header whiteLabel-price-js">$149<span class="month-spa">/mo</span></p>
+            <p class="info-text">Billed annually</p>
+
+            <button class="option-btn-violet">Get Started</button>
+            <br>
+
+            <p class="features-text">Includes 4 site & AWS hosting</p>
+            <p class="features-text">Add site for $12.99/mo</p>
+            <p class="features-text">Email support</p>
+            <p class="features-text">99.99% uptime SLA</p>
+            <p class="features-text">6 team members</p>
+            <p class="features-text">Dynamic pages</p>
+            <p class="features-text">Client management</p>
+            <p class="features-text">Site export</p>
+            <p class="features-text">AI Content Assistant</p>
+            <p class="features-text">AI SEO Assistant</p>
+            <p class="features-text">Fully white labeled platform</p>
+            <p class="features-text">Branded client communication</p>
+            <p class="features-text">Site export</p>
+            <p class="features-text">Branded client login screen</p>
+        </div>
+
+        <div class="option-row">
+            <p class="option-header">Custom</p>
+            <p class="info-text">Automate and Grow</p>
+            <p class="option-header">Let's Talk!</p>
+            <p class="info-text"></p>
+
+            <br>
+            <button class="option-btn-green">Contact us</button>
+            <br>
+
+            <p class="features-text">Includes 4 site & AWS hosting</p>
+            <p class="features-text">Add site for $12.99/mo</p>
+            <p class="features-text">Email support</p>
+            <p class="features-text">99.99% uptime SLA</p>
+            <p class="features-text">6 team members</p>
+            <p class="features-text">Dynamic pages</p>
+            <p class="features-text">Client management</p>
+            <p class="features-text">Site export</p>
+            <p class="features-text">AI Content Assistant</p>
+            <p class="features-text">AI SEO Assistant</p>
+            <p class="features-text">Fully white labeled platform</p>
+            <p class="features-text">Branded client communication</p>
+            <p class="features-text">Site export</p>
+            <p class="features-text">Branded client login screen</p>
+        </div>
+    </div>
+
+    <p class="features-footer">Compare all features <i class="fa-solid fa-arrow-down"></i></p>
+    <p id="currency-text">*All prices displayed on our pricing page are in USD</p>
+    <br>
+
+
+    <section id="tailor-made-section">
+        <h4>Flex Frame Custom plan</h4>
+        <h3>Tailor made for large-scale operations</h3>
+
+        <div class="container-row">
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon1.svg">
+                <p class="header-text">Automate your sales pipeline with a freemium offer</p>
+                <p class="features-info">
+                    Capture more leads & close more deals offering Instant Sites as your
+                    acquisition tool, via PPC campaigns, during a demo session or a trade show.
+                </p>
+            </div>
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon2.svg">
+                <p class="header-text">Offer multiple website products to get more clients</p>
+                <p class="features-info">
+                    Entice prospects with a low entry point using Flex Frames Simple Editor as a DIY builder and provide 
+                    seamless upgrade flows (advanced DIY, DIWM, DIFM) from a single platform.
+                </p>
+            </div>
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon3.svg">
+                <p class="header-text">Upsell customers on website <br> add-ons</p>
+                <p class="features-info">
+                    Drive a new recurring revenue channel and cater to your 
+                    clients’ specific needs by leveraging Flex Frames rich app store.
+                </p>
+            </div>
+        </div>
+
+        <div class="container-row">
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon4.svg">
+                <p class="header-text">Embed Your Solutions to Craft the Ideal Customer Experience</p>
+                <p class="features-info">
+                    Customize the Flex Frame platform and implement your solutions using custom 
+                    assets like widgets, templates and more, to create the best customer experience.
+                </p>
+            </div>
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon5.svg">
+                <p class="header-text">Migrate to Flex Frame Effortlessly and Smoothly</p>
+                <p class="features-info">
+                    Simplify the migration process of hundreds or thousands of websites 
+                    using Duda’s custom migration solutions and skilled engineering team.
+                </p>
+            </div>
+            <div class="card-column">
+                <img class="icon-img" src="../Images/Icons/icon6.svg">
+                <p class="header-text">Get support customized to <br> your needs</p>
+                <p class="features-info">
+                    Ensure seamless operations with 24/7 priority support, personalized 
+                    onboarding, a dedicated account manager and engineering consultation.
+                </p>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="orange-btn">Schedule a Call</button>
+            <button id="white-btn">Contact us</button>
+        </div>
+    </section>
+
+
+    <section id="company-section">
+        <p id="company-header">
+            You’re in Good Company
+        </p>
+        <br>
+        <div class="company-row">
+            <img class="company-img" src="../Images/CompanyImages/Appfolio.svg">
+            <img class="company-img" src="../Images/CompanyImages/looka.svg" alt="">
+            <img class="company-img" src="../Images/CompanyImages/shopmonkey.png" alt="">
+            <img class="company-img" src="../Images/CompanyImages/Solocal.svg" alt="">
+        </div>
+        <div class="company-row">
+            <img class="company-img" src="../Images/CompanyImages/tailor.png" alt="">
+            <img class="company-img" src="../Images/CompanyImages/Thryv.svg" alt="">
+            <img class="company-img" src="../Images/CompanyImages/vista.svg" alt="">
+            <img class="company-img" src="../Images/CompanyImages/zen.png" alt="">
+        </div>
+
+        <br>
+        <div class="comment-container">
+            <img src="../Images/brian-lewis.png" alt="" id="CEO-img">
+            <p id="comment-header">
+                Since partnering with Flex Frame, we’ve been able to build websites 
+                faster, expand our service offering, and tripled our client base!
+            </p>
+            <p id="CEO-name">
+                Brian Lewis
+            </p>
+            <p id="position-text">
+                CEO of WebAct
+            </p>
+        </div>
+    </section>
+
+    <br>
+    <section id="footer-section">
+        <p class="footer-header">
+            Lets Flex Frame This.
+        </p>
+        <div class="container-footer">
+            <div class="card-footer">
+                <p class="card-footer-header">
+                    Platform
+                </p>
+                <p class="card-footer-text">
+                    Team Collaboration Tools
+                </p>
+                <p class="card-footer-text">
+                    Website Builder
+                </p>
+                <p class="card-footer-text">
+                    Client Management
+                </p>
+                <p class="card-footer-text">
+                    The Simple Editor
+                </p>
+                <p class="card-footer-text">
+                    SEO
+                </p>
+                <p class="card-footer-text">
+                    AI Assistant
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="card-footer-header">
+                    Solutions
+                </p>
+                <p class="card-footer-text">
+                    Flex Frame for Agencies
+                </p>
+                <p class="card-footer-text">
+                    Flex Frame for SaaS Platforms
+                </p>
+                <p class="card-footer-text">
+                    Flex Frame for Hosts
+                </p>
+                <p class="card-footer-text">
+                    Flex Frame for Enterprise
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="card-footer-header">
+                    About Us
+                </p>
+                <p class="card-footer-text">
+                    Our Story
+                </p>
+                <p class="card-footer-text">
+                    Management
+                </p>
+                <p class="card-footer-text">
+                    Press
+                </p>
+                <p class="card-footer-text">
+                    Careers 
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="card-footer-header">
+                    Support
+                </p>
+                <p class="card-footer-text">
+                    Support Portal
+                </p>
+                <p class="card-footer-text">
+                    System Health Check
+                </p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p class="card-footer-text">
+                <i class="fa-solid fa-globe"></i> English
+            </p>
+            <p class="card-footer-text">
+                <span class="orange-span"><i class="fa-solid fa-heart"></i> </span> Proudly Built by Tobi.dev
+            </p>
+        </div>
+        <div class="footer-end">
+            <div class="icon-container">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+      </section>
+
+      <script src="../Scripts/main.js"></script>
+</body>
+</html>
